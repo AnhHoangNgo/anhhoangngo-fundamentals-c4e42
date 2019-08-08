@@ -11,5 +11,5 @@ else{
         console.log("This month's in Spring")}
     else if(6<= month && month <=8){
         console.log("This month's in Summer")}
-    else if(8<=month && month <=11){
+    else{
         console.log("This month's in Fall")}}}
