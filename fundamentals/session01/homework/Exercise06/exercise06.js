@@ -15,5 +15,5 @@ else{
     }else if( b*b-4*a*c==0){
         console.log("The equation has a root")
         console.log("r= "+-b/(2*a))}
-    else if( b*b-4*a*c < 0){
+    else {
         console.log("The equation hasn't root")}}
