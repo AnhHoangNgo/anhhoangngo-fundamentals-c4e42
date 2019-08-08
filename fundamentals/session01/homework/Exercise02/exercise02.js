@@ -1,2 +1,2 @@
-let y = Math.random()*101;
+let y =parseInt( Math.random()*101);
 console.log(y);
