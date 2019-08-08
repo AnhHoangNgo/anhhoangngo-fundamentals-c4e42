@@ -9,7 +9,7 @@ if(a===0){
         console.log( "r ="+c/b)}}
 else{
     let delta = b*b-4*a*c;
-    if(denta > 0){
+    if(delta > 0){
         console.log("The equation has two roots");
         console.log("r1 = "+ (-b +Math.sqrt(delta))/(2*a));
         console.log("r2 = "+(-b -Math.sqrt(delta))/(2*a));
