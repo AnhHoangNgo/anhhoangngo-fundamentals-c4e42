@@ -12,4 +12,4 @@ else{
     else if(6<= month && month <=8){
         console.log("This month's in Summer")}
     else if(8<=month && month <=11){
-        console.log("This month's in Fall ")}}}
+        console.log("This month's in Fall")}}}
