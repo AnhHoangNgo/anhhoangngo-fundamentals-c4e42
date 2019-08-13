@@ -44,4 +44,4 @@ let h = matDo.length
 for(i=0; i < h; i++){
    sum += matDo[i];
 }
-console.log("Mat do dan cu trung binh la: " , sum / matDo.length);
+console.log("Mat do dan cu trung binh la: " , sum / h);
