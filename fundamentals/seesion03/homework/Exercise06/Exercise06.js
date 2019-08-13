@@ -22,8 +22,8 @@ for(i = 0; i < l; i++){
         indexMin = i;
     }
 }
-console.log("index of max element is "+ indexMax +", "+ "quan co dan so lon nhat la: " + district[indexMax]);
-console.log("index of min element is " + indexMin + ", "+ "district has min   " + district[indexMin]);
+console.log("index of max element is "+ indexMax +", "+ "The most populated areas: " + district[indexMax]);
+console.log("index of min element is " + indexMin + ", "+ "The least populated areas: " + district[indexMin]);
 
 //Exercise09
 // Xac dinh mat do dan cu cua tung quan
@@ -34,7 +34,7 @@ let k = km.length;
 for(i = 0; i< k; i++){
     matDo.push(People[i] / km[i]);
 }
-console.log("Matdo: "+ matDo);
+console.log("average number of people per area: "+ matDo);
 
 // Exercise10
 // Xac dinh mat do dan cu trung binh
@@ -44,4 +44,4 @@ let h = matDo.length
 for(i=0; i < h; i++){
    sum += matDo[i];
 }
-console.log("Mat do dan cu trung binh la: " , sum / h);
+console.log("average number of people: " , sum / h);
