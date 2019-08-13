@@ -1,6 +1,6 @@
 // Exercise06
 
-let district = ["ST", "BD", "BTL","CG", "DD", "HBT"];
+let districts = ["ST", "BD", "BTL","CG", "DD", "HBT"];
 let People = [150.300, 247.100, 333.300, 266.800, 420.900, 318.000];
 
 //Exercise07 + Exercise08
@@ -22,8 +22,8 @@ for(i = 0; i < l; i++){
         indexMin = i;
     }
 }
-console.log("index of max element is "+ indexMax +", "+ "The most populated areas: " + district[indexMax]);
-console.log("index of min element is " + indexMin + ", "+ "The least populated areas: " + district[indexMin]);
+console.log("index of max element is "+ indexMax +", "+ "The most populated areas: " + districts[indexMax]);
+console.log("index of min element is " + indexMin + ", "+ "The least populated areas: " + districts[indexMin]);
 
 //Exercise09
 // Xac dinh mat do dan cu cua tung quan
