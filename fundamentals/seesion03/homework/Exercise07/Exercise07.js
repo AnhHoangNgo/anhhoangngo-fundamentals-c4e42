@@ -16,7 +16,7 @@ for(i = 0; i < l; i++ ){
 }
 console.log(highScore);
 // xuat ra 5 diem so cao nhat
-for(i=0; i<5;i++){
+for(i=0; i < 5; i++){
     console.log(highScore[i]);
 }
 
