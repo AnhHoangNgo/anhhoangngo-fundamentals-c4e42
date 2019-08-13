@@ -1,4 +1,4 @@
-let array =[5,1,8,92,7,30];
+let array = [5,1,8,92,7,30];
 let i;
 let l = array.length;
 
