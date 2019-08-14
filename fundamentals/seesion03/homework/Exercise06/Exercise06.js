@@ -22,8 +22,8 @@ for(i = 0; i < l; i++){
         indexMin = i;
     }
 }
-console.log("index of max element is "+ indexMax +", "+ "The most populated areas: " + districts[indexMax]);
-console.log("index of min element is " + indexMin + ", "+ "The least populated areas: " + districts[indexMin]);
+console.log(`index of max element is ${indexMax}, the most populated areas: ${districts[indexMax]}`);
+console.log(`index of min element is ${indexMin}, the least populated areas: ${districts[indexMin]}`);
 
 //Exercise09
 // Xac dinh mat do dan cu cua tung quan
