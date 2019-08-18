@@ -91,7 +91,7 @@ if(answer === questionArr[i].correctAnswer){
 }
 }
 
-// Tính kết quả bài thi ( số câu hỏi trả lời đúng  phần trăm câu hỏi trả lời đúng điểm )
+// Tính kết quả bài thi ( số câu hỏi trả lời đúng, phần trăm câu hỏi trả lời đúng,  điểm )
 let mark = correctAnswerExam*20;
 let percent = (correctAnswerExam * 100) / questionArr.length;
 
@@ -105,10 +105,10 @@ if(mark >= 80 ){
 }
 
 // Hỏi người thi có muốn xem lại bài kiểm tra vừa làm không ? 
-z = prompt("Do you want to see your exam again and check exem ? yes or no");
+z = prompt("Do you want to see your exam again and check exam ? yes or no");
 if(z === "yes"){
     for(i = 0; i < l; i++){
-        console.log(`Question ${i}: ${questionArrAnswered[i].question}\n
+        alert(`Question ${i}: ${questionArrAnswered[i].question}\n
         1: ${questionArrAnswered[i].answer[1]}\n
         2: ${questionArrAnswered[i].answer[2]}\n
         3: ${questionArrAnswered[i].answer[3]}\n
