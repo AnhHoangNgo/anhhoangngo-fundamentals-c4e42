@@ -81,16 +81,13 @@ let answer = prompt(`Question ${i}: ${questionArr[i].question}\n
 5: ${questionArr[i].answer[5]}`);
 
 // Kiểm tra xem câu trả lời có đúng không, rồi lưu bài làm vào một danh sách mới, lấy ra nếu người thi muốn xem lại
+questionArrAnswered.push(questionArr[i]);
+questionArrAnswered[i].yourAnswer = answer;
+
 if(answer === questionArr[i].correctAnswer){
     correctAnswerExam++;
-    questionArrAnswered.push(questionArr[i]);
-    questionArrAnswered[i].yourAnswer = answer;
-}else {
-    questionArrAnswered.push(questionArr[i]);
-    questionArrAnswered[i].yourAnswer = answer;
 }
 }
-
 // Tính kết quả bài thi ( số câu hỏi trả lời đúng, phần trăm câu hỏi trả lời đúng,  điểm )
 let mark = correctAnswerExam*20;
 let percent = (correctAnswerExam * 100) / questionArr.length;
