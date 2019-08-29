@@ -9,5 +9,5 @@ div{
 #span2{
     background-color: yellow;
     width: 500px;
-    display: block;
+    display:inline-flex;
 }
