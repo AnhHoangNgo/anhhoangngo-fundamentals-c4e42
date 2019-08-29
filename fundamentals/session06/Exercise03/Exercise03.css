@@ -1,0 +1,13 @@
+div{
+    background-color: red;
+    padding :0px;
+    display: inline;
+} 
+#span1{
+    background-color: red;
+}
+#span2{
+    background-color: yellow;
+    width: 500px;
+    display: block;
+}
