@@ -1,0 +1,9 @@
+.pra{
+    color:red;
+}
+.pra.pra1{
+    color:green;
+}
+.hder2, .pra.pra1{
+    color:skyblue;
+}
