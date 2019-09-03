@@ -1,0 +1,59 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin:0px;
+    padding: 0px;
+}
+.menu-container{
+    max-width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+.menu-container .logo-menu{
+    width: 100%;
+    text-align: center;
+    height:100px;
+    background-color: #ebb3b4;
+    font-size:70px;
+    color:white;
+    font-weight: bolder;
+    text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
+    font-family: 'Concert One', cursive;
+}
+.menu-container .main-menu{
+    height:100vh;
+    width: 100%;
+    background-color: #f8e4e6;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.menu-container .main-menu .food-container{
+    width: 25.333%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.menu-container .main-menu .food-container .type-food{
+    text-align: center;
+    width: 100%;
+    font-size:40px;
+    font-family: 'Pacifico', cursive;
+    color:#190000;
+}
+.menu-container .main-menu .food-container .menu{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.menu-container .main-menu .food-container .menu>*{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom:10px;
+}
+
