@@ -23,10 +23,9 @@ const  moveToDown = function(){
 const moveToLeft = function(){
     box.left -= box.speed;
     domObject('box').style.left = `${box.left}px`;
-    colorBorderBtn ('left');
 }
 const moveToRight = function(){
     box.left += box.speed;
-    domObject('box').style.left = `${box.left}px`
+    domObject('box').style.left = `${box.left}px`;
 }
 moveTo();
